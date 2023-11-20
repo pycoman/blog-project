@@ -1,6 +1,6 @@
 {% extends 'base.html' %} {% block content %} {% for post in object_list %}
 <div class="info">
   <h2 class="title">{{ post.title }}</h2>
-  <p class="text">{{ post.text }}</p>
+  <p class="text">{{ post.text | slice:":100" }}</p>
 </div>
 {% endfor %} {% endblock content %}

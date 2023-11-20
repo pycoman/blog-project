@@ -8,14 +8,6 @@
 }
 
 html {
-  background-color: gray;
-}
-
-body {
-  color: green;
-}
-
-.title {
-  margin-top: 30px;
-  color: red;
+  background-color: red;
+  color: #2d9596;
 }
