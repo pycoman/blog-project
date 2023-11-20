@@ -8,9 +8,9 @@ class blogView(ListView):
     template_name = 'index.html'
     
     
-# class blogDetailView(DetailView):
-#     model = blogModel
-#     template_name = 'blog-detail.html'
+class blogDetailView(DetailView):
+    model = blogModel
+    template_name = 'blog-detail.html'
     
     
     
