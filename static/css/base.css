@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-style: normal;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+html {
+  background-color: gray;
+}
+
+body {
+  color: green;
+}
+
+.title {
+  margin-top: 30px;
+  color: red;
+}
