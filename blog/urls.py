@@ -6,3 +6,4 @@ urlpatterns = [
     path('', blogView.as_view(), name='home'),
     path('post/<int:pk>/', blogDetailView.as_view(), name='blog-detail'),
 ]
+
